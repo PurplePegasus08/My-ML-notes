@@ -1,0 +1,13 @@
+Basics of Probability:
+
+Explaing what are these Random Experiment, Trial, Outcomes, Sample Space and Eventg
+
+Random Experiment: Tossing a coin.
+
+Trial: Each time you toss the coin.
+
+Outcomes: The results can be either Heads (H) or Tails (T).
+
+Sample Space (S): The set of all possible outcomes, which is {H, T}.
+
+Event (E): If we're interested in getting a Head, then the event is {H}. If we're interested in getting a Tail, then the event is {T}.
