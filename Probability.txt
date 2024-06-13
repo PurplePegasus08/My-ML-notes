@@ -11,3 +11,36 @@ Outcomes: The results can be either Heads (H) or Tails (T).
 Sample Space (S): The set of all possible outcomes, which is {H, T}.
 
 Event (E): If we're interested in getting a Head, then the event is {H}. If we're interested in getting a Tail, then the event is {T}.
+
+
+
+Types of Event
+
+
+Types of Events in Probability: Definitions
+1. Simple Event:
+A simple event consists of exactly one outcome.
+
+2. Compound Event:
+A compound event consists of two or more simple events.
+
+3. Certain Event:
+A certain event is an event that is sure to happen. Its probability is 1.
+
+4. Impossible Event:
+An impossible event is an event that cannot happen. Its probability is 0.
+
+5. Mutually Exclusive Events:
+Two events are mutually exclusive if they cannot happen at the same time.
+
+6. Exhaustive Events:
+Events are exhaustive if they cover all possible outcomes of a random experiment.
+
+7. Independent Events:
+Two events are independent if the occurrence of one does not affect the occurrence of the other.
+
+8. Dependent Events:
+Two events are dependent if the occurrence of one affects the occurrence of the other.
+
+9. Complementary Events:
+The complement of an event A is the event that A does not occur.
