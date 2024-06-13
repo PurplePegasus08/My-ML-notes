@@ -42,3 +42,28 @@ Two events are dependent if the occurrence of one affects the occurrence of the 
 
 9. Complementary Events:
 The complement of an event A is the event that A does not occur.
+
+
+
+What is Probability
+
+Probability is the measure of the likelihood that an event will occur. It is quantified as a number between 0 and 1, where 0 indicates that an event will not occur, and 1 indicates that an event will certainly occur. Probability can be expressed as a fraction, a decimal, or a percentage.
+
+
+Types of Probability 
+
+1. Empirical Probability or Experiment Probability -
+ Empirical probability, also known as experimental probability, is a probability measure that is based on observed data, rather than theoretical assumptions. It's calculated as the ratio of the number of tims a particular event occur to the total number of trials.
+
+2. Theoretical probability - 
+ Theoretical or classic probability is used when each outcome in a sample space is equally likely to occur. If we denote an event of interest as Event A, we calculate the theoretical probability of that event 
+
+
+ Random variable - In the context of probability theory, a random variable is a function that maps the outcomes of a random process [known as sample space] to a set of real numbers.
+
+We denote random variable in capital letters = X
+
+Input: The Input to the function is an outcome from the sample space of a random process.
+
+
+Output: The output of the function is a real number that we assign to each possible outcome.
