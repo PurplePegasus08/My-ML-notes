@@ -14,10 +14,8 @@ Event (E): If we're interested in getting a Head, then the event is {H}. If we'r
 
 
 
-Types of Event
-
-
 Types of Events in Probability: Definitions
+
 1. Simple Event:
 A simple event consists of exactly one outcome.
 
