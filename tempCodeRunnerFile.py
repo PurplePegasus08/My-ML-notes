@@ -1,5 +1,5 @@
-def add(a,b):
-    return a+b
 
-add(2+5)
-print(add)
+def add(a, b):
+    return a + b
+
+print(add(2, 5))
