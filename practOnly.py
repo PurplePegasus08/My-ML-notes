@@ -105,6 +105,7 @@ print(sorted_names)'''
 #--------------------------------------------------------------
 ## Atm machine code with OOPs
 
+
 class Atm:
     def __init__(self):
         self.pin = ''
@@ -179,3 +180,6 @@ class Atm:
   
   
 obj = Atm()
+obj.
+
+### to call attribute we don't need () and to call methods we need () like np.shape and np.info()
