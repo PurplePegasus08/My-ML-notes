@@ -105,7 +105,7 @@ print(sorted_names)'''
 #--------------------------------------------------------------
 ## Atm machine code with OOPs
 
-
+'''
 class Atm:
     def __init__(self):
         self.pin = ''
@@ -180,6 +180,72 @@ class Atm:
   
   
 obj = Atm()
-obj.
+obj ###
+'''
 
 ### to call attribute we don't need () and to call methods we need () like np.shape and np.info()
+
+'''
+def is_even(num):
+    if num %2 ==0:
+         return 'even'
+    else:
+        return 'odd'
+        
+x = is_even(4)
+print(x)
+
+'''
+
+
+'''
+Parameters -> Definition: Parameters are variables defined in a function's declaration. They act as placeholders for values that the function needs to operate.
+Example: In def add(x, y):, x and y are parameters.
+Arguments -> Definition: Arguments are the actual values you pass to a function when you call it. These values replace the parameters within the function's code.
+Example: When calling add(5, 3), 5 and 3 are arguments.
+
+'''
+
+#def power(a=1,b=1): ## Default arguments
+#    return a**b
+
+#print(power(2,3)) ## Positional arguments
+
+#print(power(b=2,a=3)) ## Keyword arguments
+
+
+''' Python Arbitrary Arguments –
+As the name suggests, sometimes the programmer does not know the number of arguments to be passed into the function.
+In such cases, Python arbitrary arguments are used. In this, we use the asterisk (*) to denote this method before the parameter in the function. 
+This is also called as Python *args.
+
+Python *args allows a function to accept any number of positional arguments i.e. arguments which are non-keyword arguments, variable-length argument list.
+
+
+'''
+
+''' Variable-Length Keyword Arguments (**kwargs)
+Definition: **kwargs allows a function to accept any number of keyword arguments as a dictionary.
+
+
+'''
+
+
+'''
+def add_numbers(*args):
+    return sum(args)
+
+print(add_numbers(1, 2, 3))  # Output: 6
+print(add_numbers(5, 10))    # Output: 15
+
+'''
+
+
+def pro(*num):
+  num = 1
+  for i in num:
+      num = num *i
+      
+  print(num)
+
+print(pro(4,2))
