@@ -240,12 +240,62 @@ print(add_numbers(5, 10))    # Output: 15
 
 '''
 
-
+'''
 def pro(*num):
-  num = 1
+  duct = 1
   for i in num:
-      num = num *i
+      duct = duct*i
       
-  print(num)
+  print(duct)
 
 print(pro(4,2))
+'''
+
+''' 
+Lambda Functions
+
+'''
+
+# structure of lambda =>lambda input: expression
+
+
+sum = lambda a,b: a+b
+
+print(sum(2,2))
+
+
+sq = lambda x: x**2
+print(sq(8))
+
+
+#for i in range(1,11):
+  #print(sq(i))
+  
+  
+#----------------------------------------------------------------------
+
+# A higher-order function (HOF) is a function that either takes one or more functions as arguments or returns a function as its result
+
+def add_five(n):
+  return n +5 
+
+def apply_func(func,x):
+  return func(x)
+
+result = apply_func(add_five,10)
+print(result)
+
+
+def make_add(x):
+  def add(y):
+    return x+y
+  return add
+add_five = make_add(5)
+print(add_five(100))
+
+
+# Some high order functions are Map, Filter and Reduce
+
+lst = [1,2,3,4,5,6]
+
+print(list(map(lambda x:x*2,lst)))
