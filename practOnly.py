@@ -105,7 +105,7 @@ print(sorted_names)'''
 #--------------------------------------------------------------
 ## Atm machine code with OOPs
 
-'''
+
 class Atm:
     def __init__(self):
         self.pin = ''
@@ -175,13 +175,12 @@ class Atm:
       self.menu()
         
       
-    
-        
   
   
 obj = Atm()
-obj ###
-'''
+obj
+
+
 
 ### to call attribute we don't need () and to call methods we need () like np.shape and np.info()
 
@@ -287,7 +286,7 @@ print(result)
 
 
 def make_add(x):
-  def add(y):
+  def add(y): 
     return x+y
   return add
 add_five = make_add(5)
@@ -299,3 +298,16 @@ print(add_five(100))
 lst = [1,2,3,4,5,6]
 
 print(list(map(lambda x:x*2,lst)))
+
+#----------------------------------------------
+
+
+class Customer:
+  def __init__(self,name):
+    self.name = name
+  
+def greet(Customer):
+  print("Hello",Customer.name)
+  
+cust = Customer.name("anurag")
+#greet(cust)
