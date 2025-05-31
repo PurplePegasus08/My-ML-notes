@@ -17,3 +17,65 @@ The specification of what a layer does to its input data is stored in the layerâ
 
 
  Initially, the weights of the network are assigned random values, so the network merely implements a series of random transformations. Naturally, its output is far from what it should ideally be, and the loss score is accordingly very high. But with every example the network processes, the weights are adjusted a little in the correct direction, and the loss score decreases. This is the training loop, which, repeated a suffi-cient number of times (typically tens of iterations over thousands of examples), yields weight values that minimize the loss function.
+
+
+
+
+
+
+
+Supervised Classification Algorithms
+Classification algorithms are used when the output variable is a categorical variable, meaning it falls into discrete classes or categories. The goal is to predict which category new, unseen data belongs to.
+
+
+Examples of classification problems include:
+
+Spam detection (spam/not spam)
+Image recognition (cat/dog/bird)
+Disease diagnosis (diseased/not diseased)
+Sentiment analysis (positive/negative/neutral)
+Common supervised classification algorithms include:
+
+Logistic Regression: Despite its name, Logistic Regression is a classification algorithm. It's often used for binary classification problems (two classes) but can be extended to multi-class classification. It estimates the probability of an instance belonging to a particular class.
+
+
+Support Vector Machines (SVM): SVMs work by finding the optimal hyperplane that separates data points into different classes with the largest margin possible. They can be used for both linear and non-linear classification problems (using kernels).
+
+Decision Trees: These algorithms classify data by creating a tree-like structure of decisions based on features. Each internal node represents a test on an attribute, each branch represents an outcome of the test, and each leaf node represents a class label.
+
+Random Forests: An ensemble learning method that builds multiple decision trees during training and outputs the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. This helps reduce overfitting and improve accuracy compared to a single decision tree.
+
+K-Nearest Neighbors (KNN): A non-parametric, "lazy" learning algorithm that classifies new data points based on the majority class of their 'k' nearest neighbors in the feature space.
+Naive Bayes: A family of algorithms based on Bayes' Theorem with the "naive" assumption of independence between features. They are particularly popular for text classification and spam filtering.
+Perceptron: One of the simplest and oldest algorithms, primarily used for binary classification. It's a foundational algorithm for neural networks.
+Supervised Continuous (Regression) Algorithms
+Regression algorithms are used when the output variable is a continuous numerical value, meaning it can take on any value within a range. The goal is to predict a numerical outcome.
+
+Examples of continuous prediction (regression) problems include:
+
+Predicting house prices
+Forecasting stock prices
+Predicting temperature
+Estimating a person's age
+Predicting sales figures
+Common supervised continuous (regression) algorithms include:
+
+Linear Regression: A simple and widely used algorithm that models the linear relationship between a dependent variable and one or more independent variables by fitting a straight line to the data. 2. Polynomial Regression: An extension of linear regression that models the relationship between the independent variable and the dependent variable as an nth-degree polynomial.
+
+Lasso Regression & Ridge Regression: These are regularization techniques applied to linear regression to prevent overfitting by adding penalty terms to the cost function.
+Support Vector Regression (SVR): An extension of Support Vector Machines (SVMs) used for regression tasks. Instead of finding a hyperplane that separates classes, SVR finds a hyperplane that best fits the continuous data, minimizing the error within a certain margin.
+Algorithms Used in Both Problems
+Several algorithms are versatile enough to be used for both classification and continuous (regression) problems, primarily by adapting their output layer or objective function:
+
+Decision Trees: As mentioned above, decision trees can be used for both classification (predicting a category) and regression (predicting a continuous value). For regression, the leaf nodes typically represent the average or median of the target variable for the data points that fall into that leaf.
+
+Random Forests: Since Random Forests are an ensemble of decision trees, they also inherit the ability to handle both classification and regression tasks. For regression, they average the predictions of individual trees.
+
+K-Nearest Neighbors (KNN): For classification, KNN predicts the class based on the majority vote of neighbors. For regression, it predicts the continuous value by averaging the values of its 'k' nearest neighbors.
+
+Support Vector Machines (SVM) / Support Vector Regression (SVR): While SVM is primarily known for classification, its extension, SVR, is specifically designed for continuous prediction problems. The underlying principle of finding an optimal hyperplane is adapted for regression by fitting a function to the data rather than separating it.
+
+Neural Networks (Deep Learning): Neural networks are highly flexible and can be configured for both classification and regression. The distinction often lies in the activation function of the output layer and the loss function used during training. 
+For Classification: The output layer often uses a softmax activation function (for multi-class) or sigmoid (for binary), and a cross-entropy loss function.
+For Regression: The output layer usually has a linear activation function, and a mean squared error (MSE) or mean absolute error (MAE) loss function.
+These algorithms demonstrate the adaptability of many machine learning techniques, allowing them to solve a wide range of predictive modeling problems by adjusting their internal mechanisms for discrete or continuous outputs.
