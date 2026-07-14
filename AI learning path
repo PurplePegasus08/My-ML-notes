@@ -1,0 +1,296 @@
+Since you already know:
+
+* ✅ ANN
+* ✅ CNN
+* ✅ Deep Learning fundamentals
+* ✅ NLP (finishing this week)
+
+you're at a good point to move into **LLMs and Generative AI**. If your goal is to become **job-ready** for roles like **AI Engineer, LLM Engineer, or GenAI Engineer**, don't focus only on prompt engineering. Companies expect you to know how to build and deploy LLM applications.
+
+## Skills you should learn next (in order)
+
+### Phase 1: Transformers and LLM Fundamentals (1–2 weeks)
+
+Understand:
+
+* Attention mechanism
+* Self-attention
+* Positional encoding
+* Encoder vs Decoder
+* BERT
+* GPT
+* T5
+* Llama
+* Mixture of Experts (MoE)
+
+Recommended course:
+
+* [DeepLearning.AI – Generative AI with LLMs](https://www.deeplearning.ai/courses/generative-ai-with-llms/?utm_source=chatgpt.com)
+
+  * Excellent introduction
+  * Covers transformer architecture and LLM basics
+  * Certificate available
+
+---
+
+## Phase 2: Hugging Face (Very Important)
+
+Almost every AI company uses Hugging Face.
+
+Learn:
+
+* Transformers library
+* Datasets
+* Tokenizers
+* Pipelines
+* PEFT
+* LoRA
+* Fine-tuning
+
+Best course:
+
+* [Hugging Face Course](https://huggingface.co/learn?utm_source=chatgpt.com)
+
+  * Free
+  * Official
+  * Certificate available after quizzes
+  * Frequently updated
+
+---
+
+## Phase 3: LangChain + LLM Applications
+
+Learn:
+
+* Prompt Templates
+* Chains
+* Agents
+* Memory
+* Tools
+* Function Calling
+* Structured Output
+
+Recommended:
+
+* [LangChain Academy](https://academy.langchain.com/?utm_source=chatgpt.com)
+
+  * Official
+  * Free
+  * Covers production-oriented workflows
+
+---
+
+## Phase 4: Retrieval-Augmented Generation (RAG)
+
+This is one of the most commonly requested skills in LLM job postings.
+
+Learn:
+
+* Embeddings
+* Chunking
+* Vector databases
+* Retrieval
+* Hybrid search
+* Reranking
+
+Resources:
+
+* [DeepLearning.AI Short Courses](https://www.deeplearning.ai/short-courses/?utm_source=chatgpt.com)
+
+  * Includes courses on RAG, vector databases, and agents.
+
+---
+
+## Phase 5: Vector Databases
+
+Learn at least one well:
+
+* Pinecone
+* ChromaDB
+* FAISS
+* Milvus
+* Weaviate
+
+Recommended:
+
+* [Pinecone Learn](https://www.pinecone.io/learn/?utm_source=chatgpt.com)
+
+---
+
+## Phase 6: OpenAI API and Other Model Providers
+
+Learn to work with:
+
+* OpenAI
+* Anthropic
+* Google Gemini
+* Groq
+* Together AI
+* Ollama (local models)
+
+Topics:
+
+* Streaming
+* Function calling
+* Structured outputs
+* Vision models
+* Audio models
+
+Official documentation:
+
+* [OpenAI Documentation](https://platform.openai.com/docs?utm_source=chatgpt.com)
+
+---
+
+## Phase 7: Fine-tuning
+
+Learn:
+
+* LoRA
+* QLoRA
+* PEFT
+* Instruction tuning
+* SFT
+* RLHF (concepts)
+* DPO (concepts)
+
+Resources:
+
+* Hugging Face tutorials
+* DeepLearning.AI short courses
+
+---
+
+## Phase 8: AI Agents
+
+Current hiring trends increasingly include agentic AI.
+
+Learn:
+
+* Tool calling
+* Multi-agent systems
+* Planning
+* MCP (Model Context Protocol)
+* LangGraph
+
+Recommended:
+
+* [LangGraph Documentation](https://langchain-ai.github.io/langgraph/?utm_source=chatgpt.com)
+
+---
+
+## Phase 9: LLM Deployment
+
+Learn:
+
+* FastAPI
+* Docker
+* Kubernetes (basics)
+* GPU inference
+* vLLM
+* Ollama
+* NVIDIA Triton (basics)
+
+---
+
+# Programming skills expected
+
+Become comfortable with:
+
+* Python (advanced)
+* Pandas
+* NumPy
+* SQL
+* Git
+* Linux
+* FastAPI
+* Docker
+* REST APIs
+
+For data engineering roles, add:
+
+* Apache Spark
+* Airflow
+* dbt
+* Kafka (basics)
+* Cloud platforms (AWS, Azure, or GCP)
+
+---
+
+# Best Certification Courses
+
+### 1. [DeepLearning.AI](https://www.deeplearning.ai/?utm_source=chatgpt.com) ⭐⭐⭐⭐⭐
+
+Best overall for GenAI.
+
+Courses:
+
+* Generative AI with LLMs
+* LangChain for LLM Application Development
+* Building Systems with ChatGPT
+* RAG
+* AI Agents
+* Function Calling
+* Vector Databases
+
+Certificates available.
+
+---
+
+### 2. [Coursera](https://www.coursera.org/?utm_source=chatgpt.com) ⭐⭐⭐⭐⭐
+
+Look for:
+
+* Generative AI with LLMs
+* AI Engineering
+* IBM Generative AI
+* Google AI courses
+
+Professional certificates are recognized by many employers.
+
+---
+
+### 3. [Hugging Face Learn](https://huggingface.co/learn?utm_source=chatgpt.com) ⭐⭐⭐⭐⭐
+
+Essential for practical LLM development.
+
+---
+
+### 4. [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/training/?utm_source=chatgpt.com) ⭐⭐⭐⭐⭐
+
+Good if you're interested in deployment, GPUs, and production AI.
+
+Certificates available.
+
+---
+
+### 5. [Microsoft Learn AI](https://learn.microsoft.com/training/?utm_source=chatgpt.com) ⭐⭐⭐⭐☆
+
+Excellent if you're interested in Azure AI and enterprise AI.
+
+---
+
+## Portfolio projects to build
+
+Recruiters often care more about projects than certificates. Aim to build 8–10 solid projects, such as:
+
+1. PDF chatbot using RAG
+2. Resume analyzer
+3. AI customer support chatbot
+4. Medical document Q&A
+5. Legal document assistant
+6. SQL generation from natural language
+7. YouTube video summarizer
+8. Multi-agent research assistant
+9. AI code assistant
+10. Voice assistant
+
+Deploy them using FastAPI and Docker, and host them on GitHub with clear documentation.
+
+## A 3-month roadmap
+
+* **Month 1:** Transformers, Hugging Face, OpenAI API, prompt engineering, build 2–3 small apps.
+* **Month 2:** LangChain, RAG, vector databases, fine-tuning basics, build 3–4 intermediate projects.
+* **Month 3:** AI agents, deployment (FastAPI, Docker), cloud basics, and 3–4 production-style portfolio projects.
+
+If you follow this roadmap consistently and build a strong GitHub portfolio alongside earning certificates, you'll be in a solid position to apply for **AI Engineer**, **LLM Engineer**, and **Generative AI Engineer** roles. For **Data Engineer** roles, you'll also need to invest time in data pipelines, distributed processing, and cloud data services, as that path overlaps only partially with LLM engineering.
